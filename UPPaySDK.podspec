@@ -117,9 +117,9 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = "LocalAuthentication", "SystemConfiguration", "CoreGraphics", "CFNetwork"
 
-  # s.library   = "iconv"
+   s.library   = "z"
   # s.libraries = "iconv", "xml2"
 
 
